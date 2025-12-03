@@ -63,7 +63,7 @@ python print_latent_analysis.py
 
 The folder `simulation-result/` stores evaluation results for two simulation tasks: monitoring and item picking
 
-The script `print_simulation_stats.py` reads the precomputed results and prints the **test statistics** used to construct **Tables 6–9**.
+The script `print_simulation_stats.py` reads the precomputed results and prints the **test statistics** used to construct **Tables S3–S6**.
 
 
 ### Table S3
