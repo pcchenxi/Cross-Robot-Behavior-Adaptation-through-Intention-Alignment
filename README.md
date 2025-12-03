@@ -16,7 +16,7 @@ This repository contains the **experimental data and analysis scripts** used in 
 ├── latent-result/                 # Latent embeddings for intention-space analysis (Table 3)
 ├── simulation-result/           # Simulation evaluation logs (Tables 6–9)
 ├── print_simulation_stats.py    # Script to summarize test statistics for simulation tasks
-├── paper_latent_distance_table.py # Script to perform latent space analysis
+├── print_latent_analysis.py # Script to perform latent space analysis
 ├── LICENSE
 └── README.md
 ```
