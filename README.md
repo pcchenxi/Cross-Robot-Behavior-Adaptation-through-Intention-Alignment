@@ -66,25 +66,25 @@ The folder `simulation-result/` stores evaluation results for two simulation tas
 The script `print_simulation_stats.py` reads the precomputed results and prints the **test statistics** used to construct **Tables 6–9**.
 
 
-### Table 6
+### Table S3
 
 ```bash
 python print_simulation_stats.py --task navigation --method usc
 ```
 
-### Table 7
+### Table S4
 
 ```bash
 python print_simulation_stats.py --task navigation --method language
 ```
 
-### Table 8
+### Table S5
 
 ```bash
 python print_simulation_stats.py --task mp1 --method usc
 ```
 
-### Table 9
+### Table S6
 
 ```bash
 python print_simulation_stats.py --task mp1 --method language
