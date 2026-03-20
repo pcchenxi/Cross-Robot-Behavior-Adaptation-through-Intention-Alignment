@@ -1,0 +1,25 @@
+hydra:
+  run:
+    dir: .
+
+disp: false
+shared_memory: false
+task: picking-unseen-google-objects-seq
+mode: train
+n: 100
+save_data: true
+
+dataset:
+  type: single
+  images: true
+  cache: true
+  augment:
+    theta_sigma: 60
+
+record:
+  save_video: false
+  save_video_path: ./data/videos
+  add_text: false
+  fps: 20
+  video_height: 640
+  video_width: 720

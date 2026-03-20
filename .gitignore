@@ -205,3 +205,19 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Monorepo local outputs
+sim-picking-task/.hydra/
+sim-picking-task/.venv/
+sim-picking-task/__pycache__/
+sim-picking-task/iail_sim_picking.egg-info/
+sim-picking-task/data/
+sim-picking-task/data_fast/
+sim-picking-task/data_paper/
+sim-picking-task/model_paper/
+sim-picking-task/results/
+sim-picking-task/results_v1/
+sim-picking-task/results_v2/
+sim-picking-task/outputs/
+sim-picking-task/*.log
+sim-picking-task/*.mp4
