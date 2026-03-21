@@ -178,7 +178,7 @@ class PackingSeenGoogleObjectsSeq(Task):
         self.obj_names = list(object_descs)
         self.set_goals(object_descs, object_ids, object_points, repeat_category, zone_pose, zone_size)
 
-        for i in range(600):
+        for i in range(1500):
             p.stepSimulation()
 
     def choose_objects(self, object_names, k):

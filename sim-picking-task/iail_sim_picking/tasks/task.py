@@ -277,7 +277,7 @@ class Task():
             return None, None
         pix = utils.sample_distribution(np.float32(free))
         pos = utils.pix_to_xyz(pix, hmap, self.bounds, self.pix_size)
-        pos = (pos[0], pos[1], obj_size[2] / 2)
+        pos = (pos[0], pos[1], obj_size[2] / 2+0.01)
         theta = np.random.rand() * 2 * np.pi
         rot = utils.eulerXYZ_to_quatXYZW((0, 0, theta))
         return pos, rot
