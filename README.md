@@ -15,7 +15,7 @@ The code for the item selection task has been refactored and improved since the 
 
 The Author Accepted Manuscript (AAM) version of the paper is available in this repository:
 
-[Cross-Robot Behavior Adaptation through Intention Alignment.pdf](<./Cross-Robot Behavior Adaptation through Intention Alignment.pdf>)
+[IAIL-aam.pdf](<./IAIL-aam.pdf>)
 
 The final published version is available at:
 
